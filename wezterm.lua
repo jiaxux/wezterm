@@ -14,6 +14,10 @@ end
 
 -- For example, changing the color scheme:
 config.color_scheme = 'OneDark (base16)'
+-- config.color_scheme = 'Dracula'
+-- config.color_scheme = 'BlulocoDark'
+-- config.color_scheme = 'MaterialOcean'
+-- config.color_scheme = 'Sandcastle (base16)'
 
 -- Do not check for updates
 config.check_for_updates = false

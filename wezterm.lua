@@ -26,7 +26,7 @@ config.check_for_updates = false
 config.font = wezterm.font('CodeNewRoman Nerd Font',
 {italic=false}
 )
-config.font_size = 12.0
+config.font_size = 12.5
 
 -- Color scheme
 config.colors = {

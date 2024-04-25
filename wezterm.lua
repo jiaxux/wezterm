@@ -23,7 +23,7 @@ config.color_scheme = 'OneDark (base16)'
 config.check_for_updates = false
 
 -- Custom fond
-config.font = wezterm.font('CodeNewRoman Nerd Font',
+config.font = wezterm.font('JetBrains Mono Nerd Font Mono',
 {italic=false}
 )
 config.font_size = 12.5
@@ -40,18 +40,18 @@ config.keys = {
   -- This will create a new split and run the `top` program inside it
   {
     key = 'v',
-    mods = 'CTRL|ALT',
+    mods = 'ALT',
     action = act.SplitVertical {domain = 'CurrentPaneDomain'},
     },
   -- This will create a new split and run the `top` program inside it
   {
     key = 'h',
-    mods = 'CTRL|ALT',
+    mods = 'ALT',
     action = act.SplitHorizontal {domain = 'CurrentPaneDomain'},
     }, 
   {
     key = 'x',
-    mods = 'CTRL|ALT',
+    mods = 'ALT',
     action = act.CloseCurrentPane{ confirm = false }
     },
   {

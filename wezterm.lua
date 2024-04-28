@@ -23,10 +23,10 @@ config.color_scheme = 'OneDark (base16)'
 config.check_for_updates = false
 
 -- Custom fond
-config.font = wezterm.font('CodeNewRoman Nerd Font',
+config.font = wezterm.font('Jetbrains Mono',
 {italic=false}
 )
-config.font_size = 14.5
+config.font_size = 15.5
 
 -- Color scheme
 config.colors = {

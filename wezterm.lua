@@ -22,10 +22,10 @@ config.color_scheme = 'OneDark (base16)'
 -- Do not check for updates
 config.check_for_updates = false
 
--- Custom fond
-config.font = wezterm.font('JetBrains Mono Nerd Font Mono',
-{italic=false}
-)
+-- Custom font
+-- config.font = wezterm.font('JetBrains Mono Nerd Font Mono',
+-- {italic=false}
+-- )
 config.font_size = 12
 
 -- Color scheme

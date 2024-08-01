@@ -13,8 +13,8 @@ if wezterm.config_builder then
 end
 
 -- For example, changing the color scheme:
--- config.color_scheme = 'OneDark (base16)'
-config.color_scheme = 'Kanagawa (Gogh)'
+config.color_scheme = 'OneDark (base16)'
+-- config.color_scheme = 'Kanagawa (Gogh)'
 -- config.color_scheme = 'Dracula'
 -- config.color_scheme = 'BlulocoDark'
 -- config.color_scheme = 'MaterialOcean'
@@ -29,12 +29,12 @@ config.check_for_updates = false
 -- )
 config.font_size = 12
 
--- -- Color scheme
--- config.colors = {
--- 	background = '#232326',
--- 	foreground = 'silver',
--- 	cursor_bg = '#52ad70',
--- }
+-- Color scheme
+config.colors = {
+	background = '#232326',
+	foreground = 'silver',
+	cursor_bg = '#52ad70',
+}
 
 -- Split panes
 config.keys = {

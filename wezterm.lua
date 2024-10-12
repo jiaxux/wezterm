@@ -33,7 +33,7 @@ config.font_size = 12
 -- Color scheme
 config.colors = {
 	-- background = '#232326',
-	foreground = 'silver',
+	-- foreground = 'silver',
 	cursor_bg = '#52ad70',
 }
 

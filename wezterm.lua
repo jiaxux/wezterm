@@ -23,12 +23,14 @@ config.color_scheme = 'Kanagawa (Gogh)'
 -- Do not check for updates
 config.check_for_updates = false
 
--- Custom font
+-- -- Custom fontconfig.font =
+config.font = wezterm.font('JetBrains Mono', 
+{ weight = 'Regular', italic = false })
 -- config.font = wezterm.font('Fira Code', 
 -- {weight='Regular',
 -- italic=false}
 -- )
-config.font_size = 12
+config.font_size = 11
 
 -- Color scheme
 config.colors = {

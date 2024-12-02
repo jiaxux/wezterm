@@ -24,7 +24,7 @@ config.color_scheme = 'Kanagawa (Gogh)'
 config.check_for_updates = false
 
 -- -- Custom fontconfig.font =
-config.font = wezterm.font('JetBrains Mono', 
+config.font = wezterm.font('Hack Nerd Font', 
 { weight = 'Regular', italic = false })
 -- config.font = wezterm.font('Fira Code', 
 -- {weight='Regular',

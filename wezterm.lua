@@ -13,7 +13,9 @@ if wezterm.config_builder then
 end
 
 -- For example, changing the color scheme:
-config.color_scheme = 'OneDark (base16)'
+-- config.color_scheme = 'OneDark (base16)'
+config.color_scheme = 'Kanagawa (Gogh)'
+-- config.color_scheme = 'Catppuccin Mocha'
 -- config.color_scheme = 'Dracula'
 -- config.color_scheme = 'BlulocoDark'
 -- config.color_scheme = 'MaterialOcean'
@@ -23,14 +25,14 @@ config.color_scheme = 'OneDark (base16)'
 config.check_for_updates = false
 
 -- Custom fond
-config.font = wezterm.font('Jetbrains Mono',
+config.font = wezterm.font('JetBrains Mono',
 {italic=false}
 )
-config.font_size = 15.5
+config.font_size = 13.5
 
 -- Color scheme
 config.colors = {
-	background = '#232326',
+	-- background = '#232326',
 	foreground = 'silver',
 	cursor_bg = '#52ad70',
 }

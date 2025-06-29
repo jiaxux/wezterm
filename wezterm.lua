@@ -20,6 +20,12 @@ config.color_scheme = 'Kanagawa (Gogh)'
 -- config.color_scheme = 'MaterialOcean'
 -- config.color_scheme = 'Sandcastle (base16)'
 
+-- Increse the rendering FPS
+config.animation_fps = 120
+config.max_fps = 120
+config.cursor_blink_ease_in = 'Constant'
+config.cursor_blink_ease_out = 'Constant'
+
 -- Do not check for updates
 config.check_for_updates = false
 

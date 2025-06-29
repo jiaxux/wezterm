@@ -12,6 +12,15 @@ if wezterm.config_builder then
 	config = wezterm.config_builder()
 end
 
+-- -- Set environment variables to include Linuxbrew in the PATH
+-- config.set_environment_variables = {
+-- 	PATH =
+-- 	"/home/linuxbrew/.linuxbrew/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+-- }
+
+-- -- Set linuxbrew tmux as the default program
+-- config.default_prog = { 'tmux', 'new-session', '-A', '-s', 'main' }
+
 -- For example, changing the color scheme:
 -- config.color_scheme = 'OneDark (base16)'
 config.color_scheme = 'Kanagawa (Gogh)'
